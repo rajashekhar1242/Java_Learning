@@ -26,7 +26,7 @@ public class JDBCSteps {
         ResultSet rs=st.executeQuery(statement);
 
 
-        //process
+        //Fetch Records READ operation in crud
         int i=1;
         while(rs.next())
         {
