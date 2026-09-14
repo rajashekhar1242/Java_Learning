@@ -1,6 +1,4 @@
-package JDBC;
-
-//1.import packages
+package JDBC;//1.import packages
 import java.sql.*;
 
 public class JDBCSteps {
