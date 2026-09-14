@@ -1,0 +1,12 @@
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
+    <session-factory>
+
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/work</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">R78877887/@r</property>
+
+        <property name="hibernate.show_sql">true</property>
+
+    </session-factory>
+</hibernate-configuration>
