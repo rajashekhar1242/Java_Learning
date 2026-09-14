@@ -5,7 +5,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-public class HibernateDemo {
+public class SaveDataHibernate {
     public static void main(String[] args) {
         Student student = new Student();
         student.setId(6);
