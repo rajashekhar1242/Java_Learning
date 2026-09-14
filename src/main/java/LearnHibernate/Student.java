@@ -3,12 +3,13 @@ package LearnHibernate;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
-@Entity
+@Entity(name="student_table")
 public class Student {
     @Id
     private int id;
     private String name;
     private int age;
+    private Adress adress;
 
     public int getId() {
         return id;
@@ -37,9 +38,18 @@ public class Student {
     @Override
     public String toString() {
         return "Student{" +
-                "age=" + age +
+                "id=" + id +
                 ", name='" + name + '\'' +
-                ", id=" + id +
+                ", age=" + age +
+                ", adress=" + adress +
                 '}';
+    }
+
+    public Adress getAdress() {
+        return adress;
+    }
+
+    public void setAdress(Adress adress) {
+        this.adress = adress;
     }
 }
