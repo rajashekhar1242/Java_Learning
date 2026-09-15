@@ -46,7 +46,7 @@ class emp{
 }
 
 
-//naming goes fomr class->entity->table
+//naming goes FROM class->entity->table
 
 
 

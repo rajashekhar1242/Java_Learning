@@ -7,9 +7,9 @@
         <property name="hibernate.connection.password">R78877887/@r</property>
 
         <property name="hibernate.show_sql">true</property>
-        <property name="hibernate.format_sql">true</property>
 
-        <property name="hibernate.hbm2ddl.auto">create</property>
+
+        <property name="hibernate.hbm2ddl.auto">update</property>
 
 
 
