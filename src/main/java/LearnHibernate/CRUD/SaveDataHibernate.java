@@ -1,4 +1,4 @@
-package LearnHibernate;
+package LearnHibernate.CRUD;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -14,7 +14,7 @@ public class SaveDataHibernate {
 
         //1.Configuration
         Configuration cfg=new Configuration();
-        cfg.addAnnotatedClass(LearnHibernate.Student.class);
+        cfg.addAnnotatedClass(Student.class);
         //configure file in resources  cfg.xml
         cfg.configure();
 

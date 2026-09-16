@@ -1,9 +1,9 @@
-package LearnHibernate;
+package LearnHibernate.CRUD;
 
 import jakarta.persistence.Embeddable;
 
 @Embeddable
-public class Adress {
+public class Address {
     private String adress;
     private String city;
     private String state;

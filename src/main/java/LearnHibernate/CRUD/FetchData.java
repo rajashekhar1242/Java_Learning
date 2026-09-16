@@ -1,4 +1,4 @@
-package LearnHibernate;
+package LearnHibernate.CRUD;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

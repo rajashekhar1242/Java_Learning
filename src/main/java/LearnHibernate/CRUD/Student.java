@@ -1,4 +1,4 @@
-package LearnHibernate;
+package LearnHibernate.CRUD;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -9,7 +9,7 @@ public class Student {
     private int id;
     private String name;
     private int age;
-    private Adress adress;
+    private Address address;
 
     public int getId() {
         return id;
@@ -41,15 +41,15 @@ public class Student {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", adress=" + adress +
+                ", adress=" + address +
                 '}';
     }
 
-    public Adress getAdress() {
-        return adress;
+    public Address getAdress() {
+        return address;
     }
 
-    public void setAdress(Adress adress) {
-        this.adress = adress;
+    public void setAdress(Address address) {
+        this.address = address;
     }
 }
